@@ -1,11 +1,10 @@
 Practical works not 100% done or correct, use only for inspiration.
 
-Project group:
+Project done by:
+--> Bruno Bastos
+--> Hugo Paiva
+--> Leandro Silva
+--> Mário Silva
+--> Rui Fernandes
 
-Bruno Bastos,
-Hugo Paiva,
-Leandro Silva,
-Mário Silva,
-Rui Fernandes
-
-Grade given to project: 18+
+Grade given: 18+
