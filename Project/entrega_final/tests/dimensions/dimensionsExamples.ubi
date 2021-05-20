@@ -1,0 +1,34 @@
+dim Time(s: Integer);
+unit Time(h: 3600*s);
+
+dim Distance(m: Double);
+unit Distance(km : 1000*m);
+
+dim Velocity(Distance/Time);
+unit Velocity(mach: 200*m/s);
+
+dim Acceleration(Distance/Time^2);
+
+dim Mass(kg: Double);
+
+dim Force(N: Mass*Acceleration);
+
+dim Potential(V: Double);
+unit Potential(MV: 10.0^6.0*V);
+
+dim Resistence(O: Double);
+
+dim Current(A: Potential/Resistence);
+
+dim Energy(J: Mass*(Distance^2.5)*Time^-2);
+
+dim Power(W: Energy/Time);
+unit Power(KW: W*10.0^3.0);
+
+dim Price(euro : Double);
+
+dim PricePerPowerTime(Price/(Power*Time));
+
+dim Charge(C: Current*Time);
+
+dim IMC(imc : Mass/Distance^2);
